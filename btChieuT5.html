@@ -55,7 +55,7 @@
         console.log("Cau 6 - Tat ca san pham thuoc danh muc Accessories dang dc ban: ", allAccessoriesAvailable)
 
         //Cau 7
-        const totalPriceProduct = products.reduce((cur, item) => cur + item.price * item.quantity, 0)
+        const totalPriceProduct = products.reduce((arr, item) => arr + item.price * item.quantity, 0)
         console.log("Cau 7 - Tong gia tri kho hang: ", totalPriceProduct)
 
         //Cau 8
